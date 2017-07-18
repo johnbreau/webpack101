@@ -20,8 +20,9 @@ module.exports = {
     ]},
     plugins:[
         new HtmlWebpackPlugin({
-            title: 'Project Demo',
-            template: './src/index.ejs'
+            title: 'My Webpack Project Demo',
+            hash: true,
+            template: './src/index.html'
         }),
         new ExtractTextPlugin({
             filename: 'app.css',
