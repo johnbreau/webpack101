@@ -1,4 +1,6 @@
 body {
   background: rebeccapurple; }
   body p {
-    color: white; }
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; }

@@ -1,4 +1,3 @@
 const css = require('./app.scss');
 
-
-console.log('hello from app today');
+console.log('Hello from app.js and webpack dev derver!');
