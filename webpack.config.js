@@ -24,7 +24,8 @@ module.exports = {
         compress: true,
         port: 9000,
         stats: "errors-only",
-        open: true
+        open: true,
+        openPage: ''
     },
     plugins:[
         new HtmlWebpackPlugin({
